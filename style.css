@@ -1,0 +1,149 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #1F2937;
+    color: #e5e7e5;
+}
+
+li {
+    display: inline;
+}
+
+ul {
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7e5;
+}
+.list {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 15px;
+    background-color: #1F2937;
+    color: #e5e7e5;
+    padding-bottom: 100px;
+    padding-top: 60px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+.left {
+    width: 500px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.info {
+    background-color: whitesmoke;
+}
+
+h3 {
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    height: 400px;
+    align-items: center;
+}
+
+img {
+    border-radius: 15px;
+    border-width: 15px;
+    border: solid #1F2937;
+}
+
+.quote {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.right {
+    margin-left: auto;
+    font-weight: bolder;
+}
+
+.helo {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    align-items: center;
+    background-color: #e5e7e5;
+}
+
+h4 {
+    margin-bottom: 0;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.call {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    width: 600px;
+    align-self: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    border-radius: 15px;
+    color: #e5e7e5;
+}
+
+.call p {
+    margin-top: 0;
+}
+
+.call div {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+button {
+    border-radius: 5px; 
+    background-color: #3882F6;
+    color: #e5e7e5;
+    border-color: #e5e7e5;
+    font-weight: bolder;
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    margin-top: auto;
+    padding: 30px;
+    color: #e5e7e5;
+    font-weight: bolder
+}
