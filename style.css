@@ -110,7 +110,7 @@ h4 {
 .call {
     display: flex;
     background-color: #3882F6;
-    justify-content: center;
+    justify-content: space-around;
     gap: 40px;
     align-items: center;
     width: 600px;
@@ -124,11 +124,13 @@ h4 {
 
 .call p {
     margin-top: 0;
+    flex-shrink: 0;
 }
 
 .call div {
     padding-left: 5px;
     padding-right: 5px;
+    flex-shrink: 0;
 }
 
 button {
